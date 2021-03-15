@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- TITLE TAG -->
     <title>Matt Lutz | Front End Web Developer</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- CSS Links -->
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
@@ -14,14 +20,14 @@
     <!-- HEADER START -->
     <header>
         <!-- Clickable title that brings you to the inex page -->
-        <a href="index.html">
+        <a id="logo" href="index.html">
             <h1>Matt</h1>
             <h2>Front End Web Developer</h2>
         </a>
         <!-- Navigation menu with three links: portfolio, about, contact  -->
         <nav>
             <ul>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="#" class="selected">Portfolio</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -30,8 +36,8 @@
     <!-- HEADER END -->
     
     <!-- GALLERY START -->
-    <div>
-        <ul>
+    <div id="wrapper">
+        <ul id="gallery">
             <!-- start list of photos -->
             <li>
                 <img src="img/numbers-01.jpg" alt="number 1">
@@ -66,9 +72,9 @@
     <!-- FOOTER BEGIN -->
     <footer>
         <!-- clickable links to twitter that opens in a new tab -->
-        <a href="https://twitter.com" target="_blank"><img src="img/twitter-wrap.png"></a>
+        <a href="https://twitter.com" target="_blank"><img src="img/twitter-wrap.png" class="social-icon"></a>
         <!-- clickable links to facebook that opens in a new tab -->
-        <a href="https://facebook.com" target="_blank"><img src="img/facebook-wrap.png"> </a>
+        <a href="https://facebook.com" target="_blank"><img src="img/facebook-wrap.png" class="social-icon"> </a>
         <!-- copyright -->
         <p>&copy; 2021 Matt Lutz</p>
     </footer>
