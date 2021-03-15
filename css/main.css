@@ -109,6 +109,11 @@ PAGE: PORTFOLIO
     margin: 0px;
 }
 
+#gallery {
+    margin: 0px;
+    padding: 0px;
+}
+
 /************************
 PAGE: CONTACT
 *************************/
