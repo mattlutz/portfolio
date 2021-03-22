@@ -122,6 +122,12 @@ PAGE: CONTACT
 PAGE: ABOUT
 *************************/
 
+.profile-photo {
+    max-width: 150px;
+    border-radius: 100%;
+    margin: 0 auto 30px;
+}
+
 /************************
 COLORS
 *************************/
