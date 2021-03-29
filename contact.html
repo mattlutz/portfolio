@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- TITLE TAG -->
     <title>Matt Lutz | Front End Web Developer</title>
+     <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- CSS Link -->
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
 </head>
 
 <body>
@@ -14,7 +21,7 @@
     <!-- HEADER START -->
     <header>
         <!-- Clickable title that brings you to the inex page -->
-        <a href="index.html">
+        <a id="logo" href="index.html">
             <h1>Matt</h1>
             <h2>Front End Web Developer</h2>
         </a>
@@ -23,15 +30,15 @@
             <ul>
                 <li><a href="index.html">Portfolio</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="selected">Contact</a></li>
             </ul>
         </nav>
     </header>
     <!-- HEADER END -->
     
-    <div>
+    <div id="wrapper">
     <!-- start of first column -->
-       <section>
+       <section id="primary">
         <!-- title -->
         <h3>General Information</h3>
         <!-- general info paragraph -->
@@ -40,14 +47,14 @@
     <!-- end of first column -->
         
     <!-- start of second column -->
-        <section>
+        <section id="secondary">
             <!-- title -->
             <h3>Contact Information</h3>
             <!-- contact info -->
-            <ul>
-                <li><a href="tel:5026452230">(502) 645-2230</a></li>
-                <li><a href="mailto:lutz.matt@gmail.com">lutz.matt@gmail.com</li>
-                <li><a href="https://twitter.com">@username</a></li>
+            <ul class="contact-info">
+                <li class="phone"><a href="tel:5026452230">(502) 645-2230</a></li>
+                <li class="email"><a href="mailto:lutz.matt@gmail.com">lutz.matt@gmail.com</a></li>
+                <li class="twitter"><a href="https://twitter.com">@username</a></li>
             </ul>
         </section>
     <!-- end of second column -->
